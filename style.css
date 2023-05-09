@@ -1,0 +1,36 @@
+body{
+    background-size: cover;
+}
+.f{
+    width: 100%;
+    margin-top: 0;
+    font-size: 20px;
+}
+#s,#g,#h{
+    font-size: 16px;
+}
+#d{
+    position: fixed;
+    bottom: 0;
+    background: rgba(255, 51, 0, 0.63);
+    width: 100%;
+    text-align: center;
+    color: wheat;
+    line-height: 3;
+}
+canvas{
+    border: 4px dotted  rgb(255, 174, 0);
+    border-radius: 100px;
+    margin: 80px;
+    animation-name: a;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes a{
+    from{
+        box-shadow: 4px 4px 40px rgb(255, 0, 85);
+    }
+    to{
+        box-shadow: 4px 4px 40px rgb(255, 42, 0);
+    }
+}
